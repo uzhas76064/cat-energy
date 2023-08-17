@@ -1,3 +1,5 @@
+@import "../variables";
+
 .site-menu {
   font-family: $font-heading;
   font-size: 20px;
@@ -5,10 +7,10 @@
   text-align: center;
   text-transform: uppercase;
   list-style: none;
-}
 
-.site-menu__link {
-  color: $color-black;
+  &__link {
+    color: $color-black;
 
-  text-decoration: none;
+    text-decoration: none;
+  }
 }
