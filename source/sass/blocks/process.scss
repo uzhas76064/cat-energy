@@ -1,9 +1,12 @@
+@import "../variables";
+
 .process {
   padding: 20px;
+
+  &__list {
+    color: $color-gray-700;
+
+    list-style: none;
+  }
 }
 
-.process__list {
-  color: $color-gray-700;
-
-  list-style: none;
-}
