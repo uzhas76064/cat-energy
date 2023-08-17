@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-@mixin set-text($size, $lh, $weight: 400) {
+@mixin set-text($size, $lh: 37px, $weight: 400) {
   font-size: $size;
   font-weight: $weight;
   line-height: $lh;

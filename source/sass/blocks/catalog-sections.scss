@@ -1,3 +1,6 @@
+@import "../variables";
+@import "../mixins";
+
 .catalog-sections__item {
   padding: 20px;
 
@@ -6,8 +9,9 @@
 
 .catalog-sections__heading {
   font-family: $font-heading;
-  font-size: 24px;
-  font-weight: 400;
+
+  @include set-text(24px);
+
   text-transform: uppercase;
 }
 
@@ -19,8 +23,9 @@
   color: $color-black;
 
   font-family: $font-heading;
-  font-size: 16px;
-  font-weight: 400;
+
+  @include set-text(16px);
+
   text-transform: uppercase;
   text-decoration: none;
 }
