@@ -1,34 +1,38 @@
+@import "../variables";
+@import "../mixins";
+
 .example {
   padding: 20px;
 
   background-color: $color-gray-100;
-}
 
-.example__text {
-  color: $color-gray-700;
-}
+  &__text {
+    color: $color-gray-700;
+  }
 
-.example__list {
-  text-align: center;
-}
+  &__list {
+    text-align: center;
+  }
 
-.example__title {
-  color: $color-gray-700;
+  &__title {
+    color: $color-gray-700;
 
-  font-size: 12px;
-  line-height: 1;
-  text-transform: lowercase;
-}
+    @include set-text(12px, 1);
 
-.example__definition {
-  font-family: $font-heading;
-  font-size: 24px;
-  line-height: 1;
-  text-transform: uppercase;
-}
+    text-transform: lowercase;
+  }
 
-.example__spending {
-  font-family: $font-heading;
-  line-height: 20px;
-  text-transform: uppercase;
+  &__definition {
+    font-family: $font-heading;
+
+    @include set-text(24px, 1);
+
+    text-transform: uppercase;
+  }
+
+  &__spending {
+    font-family: $font-heading;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
 }
