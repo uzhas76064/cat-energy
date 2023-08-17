@@ -1,10 +1,11 @@
+@import "../variables";
+@import "../mixins";
+
 .card-row__heading {
   color: $color-gray-850;
 
   font-family: $font-heading;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1;
+  @include set-text(16px, 1, 400);
   text-transform: uppercase;
 }
 
