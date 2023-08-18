@@ -8,3 +8,20 @@
   font-weight: $weight;
   line-height: $lh;
 }
+
+@mixin button($size, $lh) {
+  $bg-color: #68B738;
+  $text-color: #fff;
+
+  display: inline-block;
+  width: 100%;
+  padding: 14px 26px;
+  background-color: $bg-color;
+  color: $text-color;
+  font-family: Oswald, Arial, sans-serif;
+  font-size: $size;
+  font-style: normal;
+  font-weight: 400;
+  line-height: $lh; /* 100% */
+  text-transform: uppercase;
+}

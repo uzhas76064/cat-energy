@@ -2,8 +2,6 @@
 @import "../mixins";
 
 .contacts {
-  padding: 20px;
-
   &__heading {
     font-family: $font-heading;
     @include set-text(16px, 20px);

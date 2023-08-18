@@ -1,5 +1,8 @@
 @import "./variables.scss";
 @import "./fonts.scss";
+@import "global";
+@import "visually-hidden";
+@import "mixins";
 
 // Blocks
 @import "./blocks/button.scss";
@@ -14,6 +17,7 @@
 @import "./blocks/example.scss";
 @import "./blocks/field-group.scss";
 @import "./blocks/field.scss";
+@import "blocks/logo";
 @import "./blocks/form.scss";
 @import "./blocks/offer.scss";
 @import "./blocks/page-footer.scss";
@@ -24,4 +28,5 @@
 @import "./blocks/show-more.scss";
 @import "./blocks/site-menu.scss";
 @import "./blocks/switcher.scss";
-@import "./blocks/visually-hidden.scss";
+@import "blocks/page-header";
+@import "blocks/container";
