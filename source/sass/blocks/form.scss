@@ -1,9 +1,0 @@
-@import "../mixins";
-
-.form {
-  padding: 20px;
-}
-
-.form__group {
-  @include reset;
-}
