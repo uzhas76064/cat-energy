@@ -1,0 +1,32 @@
+.hero {
+  background: url("../../img/background/promo.jpg") no-repeat;
+  background-size: 100%;
+
+  &__title {
+    @include reset();
+
+    font-size: 36px;
+    line-height: 36px; /* 100% */
+    padding: 27px 35px 25px;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 30px;
+  }
+
+  &__title, &__text {
+    text-align: center;
+    font-family: Oswald, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  &__img {
+    display: block;
+    margin: 0 auto 3px;
+  }
+}

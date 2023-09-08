@@ -2,3 +2,16 @@
   margin: 0;
   padding: 0;
 }
+
+@mixin button($text-color, $fsz, $lh) {
+  background: var(--basic_green, #68B738);
+  color: $text-color;
+  text-align: center;
+  font-family: Oswald, Arial, sans-serif;
+  font-size: $fsz;
+  font-style: normal;
+  font-weight: 400;
+  line-height: $lh; /* 100% */
+  text-transform: uppercase;
+  border: none;
+}

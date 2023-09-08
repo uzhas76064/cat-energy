@@ -1,0 +1,7 @@
+.button {
+  @include button(#fff, 14px, 18px);
+
+  order: 4;
+  width: 100%;
+  padding: 8px 44px;
+}
