@@ -1,0 +1,21 @@
+.site-menu {
+  list-style-type: none;
+  font-family: Oswald, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 100% */
+  text-transform: uppercase;
+  text-align: center;
+
+  @include reset();
+
+  &__link {
+    text-decoration: none;
+    color: #000;
+  }
+
+  &__item {
+    border-bottom: 1px solid #e6e6e6;
+  }
+}
