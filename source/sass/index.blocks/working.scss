@@ -1,0 +1,35 @@
+.working {
+  font-family: Oswald, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+
+  & .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  &__list {
+    list-style: none;
+
+    @include reset();
+  }
+
+  &__title {
+    margin-bottom: 42px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 400;
+  }
+}
+
+.working-item {
+
+  &__text {
+    margin: 0;
+    width: calc(100% - 80px);
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 26px;
+  }
+}
