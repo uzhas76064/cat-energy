@@ -84,7 +84,8 @@ body {
     font-size: 36px;
     line-height: 36px;
     /* 100% */
-    padding: 27px 35px 25px; }
+    padding-bottom: 25px;
+    padding-top: 27px; }
   .hero__text {
     font-size: 14px;
     line-height: 14px;
@@ -99,5 +100,44 @@ body {
   .hero__img {
     display: block;
     margin: 0 auto 3px; }
+  .hero__button {
+    margin-bottom: 20px; }
+
+.programs-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.programs-item {
+  background: var(--basic_grey, #F2F2F2);
+  color: #000;
+  font-family: Oswald, sans-serif;
+  font-style: normal;
+  margin-bottom: 20px;
+  padding: 21px; }
+  .programs-item__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 37px;
+    /* 154.167% */ }
+  .programs-item__text {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 22px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    margin: 0;
+    border-bottom: 1px solid #D9D9D9; }
+  .programs-item__show {
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000; }
 
 /*# sourceMappingURL=style.css.map */

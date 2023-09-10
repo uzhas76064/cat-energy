@@ -1,0 +1,44 @@
+.programs-list {
+  list-style-type: none;
+
+  @include reset();
+}
+
+.programs-item {
+  background: var(--basic_grey, #F2F2F2);
+  color: #000;
+  font-family: Oswald, sans-serif;
+  font-style: normal;
+  margin-bottom: 20px;
+  padding: 21px;
+
+
+  &__title {
+    @include reset();
+
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 37px; /* 154.167% */
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 22px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    margin: 0;
+    border-bottom: 1px solid #D9D9D9;
+  }
+
+  &__show {
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000;
+  }
+}
