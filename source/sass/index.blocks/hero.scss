@@ -7,7 +7,9 @@
 
     font-size: 36px;
     line-height: 36px; /* 100% */
-    padding: 27px 35px 25px;
+    //padding: 27px 35px 25px;
+    padding-bottom: 25px;
+    padding-top: 27px;
   }
 
   &__text {
@@ -28,5 +30,9 @@
   &__img {
     display: block;
     margin: 0 auto 3px;
+  }
+
+  &__button {
+    margin-bottom: 20px;
   }
 }
