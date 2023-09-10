@@ -1,0 +1,19 @@
+.page-footer {
+  background: var(--basic_grey, #F2F2F2);
+  padding-bottom: 26px;
+  padding-top: 40px;
+
+  &__social {
+    list-style: none;
+
+    @include reset();
+  }
+
+  &__developer {
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+  }
+}

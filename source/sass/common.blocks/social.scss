@@ -1,0 +1,13 @@
+.social {
+  padding-bottom: 23px;
+  padding-top: 23px;
+  margin: 32px 20px 22px;
+  border-bottom: 1px solid #D9D9D9;
+  border-top: 1px solid #D9D9D9;
+
+  &__item {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+  }
+}
