@@ -1,0 +1,16 @@
+.page-main {
+  &__heading {
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+    color: #000;
+
+    @include set-title();
+    @include reset();
+
+    margin-bottom: 8px;
+    padding-left: 20px;
+    padding-top: 27px;
+    padding-bottom: 40px;
+    line-height: 40px;
+  }
+}
