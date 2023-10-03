@@ -5,6 +5,11 @@
 }
 
 .programs-item {
+  @media (min-width: $tablet-width) {
+    padding: 52px;
+    margin-bottom: 30px;
+  }
+
   background: var(--basic_grey, #F2F2F2);
   color: #000;
   font-family: Oswald, sans-serif;
@@ -14,8 +19,19 @@
 
 
   &__title {
+    @media (min-width: $tablet-width) {
+      color: #000;
+      font-family: Oswald;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 36px; /* 100% */
+      text-transform: uppercase;
+    }
+
     @include reset();
 
+    margin: 0;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 24px;
@@ -23,6 +39,18 @@
   }
 
   &__text {
+    @media (min-width: $tablet-width) {
+      color: #000;
+      font-family: Oswald;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      padding-bottom: 52px;
+      width: 340px;
+      border: none;
+    }
+
     font-size: 14px;
     line-height: 18px;
     padding-top: 22px;
@@ -33,6 +61,17 @@
   }
 
   &__show {
+    @media (min-width: $tablet-width) {
+      color: #000;
+      text-align: center;
+      font-family: Oswald;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+
     display: inline-block;
     text-decoration: none;
     padding-top: 15px;

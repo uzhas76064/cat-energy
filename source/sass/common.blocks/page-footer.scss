@@ -1,4 +1,12 @@
 .page-footer {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px
+  }
+
   background: var(--basic_grey, #F2F2F2);
   padding-bottom: 26px;
   padding-top: 40px;
@@ -10,6 +18,11 @@
   }
 
   &__developer {
+    @media (min-width: $tablet-width) {
+      display: flex;
+      align-items: center;
+    }
+
     font-size: 16px;
     line-height: normal;
     font-weight: 400;

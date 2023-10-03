@@ -1,0 +1,7 @@
+.address-wrapper {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}

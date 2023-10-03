@@ -4,12 +4,30 @@
   line-height: 18px;
 
   &__list {
+    @media (min-width: $tablet-width) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 154px;
+      grid-row-gap: 37px;
+    }
+
     list-style: none;
 
     @include reset();
+    margin: 0;
   }
 
   &__title {
+    @media (min-width: $tablet-width) {
+      color: #000;
+      font-family: Oswald;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 60px; /* 100% */
+      text-align: left;
+    }
+
    @include set-title();
   }
 }
@@ -17,6 +35,15 @@
 .working-item {
 
   &__text {
+    @media (min-width: $tablet-width) {
+      color: var(--special_dark-grey, #444);
+      font-family: Oswald;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+    }
+
     margin: 0;
     width: calc(100% - 80px);
   }
