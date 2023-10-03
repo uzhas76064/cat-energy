@@ -131,6 +131,19 @@ body {
   width: 100%;
   padding: 8px 44px;
   display: block; }
+  @media (min-width: 768px) {
+    .button {
+      color: var(--basic-white, #FFF);
+      text-align: center;
+      font-family: Oswald, sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      /* 100% */
+      text-transform: uppercase;
+      order: 3;
+      padding: 14px 26px; } }
   .button--secondary {
     background: var(--basic_green, #68B738);
     padding-top: 10px;
@@ -167,18 +180,9 @@ body {
 .hero {
   background: url("../../img/background/promo.jpg") no-repeat;
   background-size: 100%; }
-  .hero__title {
-    margin-left: 0;
-    padding: 0;
-    font-size: 36px;
-    line-height: 36px;
-    /* 100% */
-    padding-bottom: 25px;
-    padding-top: 27px; }
-  .hero__text {
-    font-size: 14px;
-    line-height: 14px;
-    margin-bottom: 30px; }
+  @media (min-width: 768px) {
+    .hero {
+      background: none; } }
   .hero__title, .hero__text {
     text-align: center;
     font-family: Oswald, Arial, sans-serif;
@@ -186,11 +190,58 @@ body {
     font-weight: 400;
     color: #fff;
     text-transform: uppercase; }
+  .hero__title {
+    margin-left: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height: 36px;
+    /* 100% */
+    padding-bottom: 25px;
+    padding-top: 27px; }
+    @media (min-width: 768px) {
+      .hero__title {
+        color: #000;
+        font-family: Oswald, sans-serif;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 60px;
+        /* 100% */
+        text-align: left;
+        margin-left: 87px;
+        margin-right: 207px; } }
+  .hero__text {
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 30px; }
+    @media (min-width: 768px) {
+      .hero__text {
+        color: #000;
+        font-family: Oswald, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        /* 100% */
+        text-transform: uppercase;
+        text-align: left;
+        margin-left: 87px;
+        margin-right: 207px; } }
   .hero__img {
     display: block;
     margin: 0 auto 3px; }
+    @media (min-width: 768px) {
+      .hero__img {
+        order: 4; } }
   .hero__button {
     margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      .hero__button {
+        width: auto;
+        margin-left: 87px;
+        margin-right: 374px; } }
 
 .cooperation__title {
   font-size: 16px;
