@@ -1,9 +1,5 @@
-*, ::before, ::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-}
-body {
-  margin: 0;
-  font-family: Oswald, sans-serif;
-  font-size: 14px;
-  line-height: 18px;
 }
